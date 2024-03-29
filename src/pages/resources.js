@@ -6,9 +6,8 @@ import minecraft from "@/assets/img/resources/minecraft.png";
 import scratch from "@/assets/img/resources/scratch.png";
 import makeCode from "@/assets/img/resources/make$code.png";
 import code from "@/assets/img/resources/code.png";
+import { Button } from "@/components/ui/button";
 
-import bulb from "@/assets/img/bulb.png"
-import plane from "@/assets/img/plane.png"
 
 function resources() {
   const data = [
@@ -38,11 +37,11 @@ function resources() {
     },
   ];
   return (
-    <div className="container mx-auto px-5">
+    <div className="container mx-auto px-5 mt-[73px]">
       <div className="resources py-14 relative">
         <h1
           style={{ lineHeight: "1.3" }}
-          className="text-center w-full md:w-2/3 md:mx-auto text-3xl md:text-4xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-pink-500 mb-3"
+          className="text-center w-full md:w-2/3 md:mx-auto text-3xl md:text-4xl lg:text-6xl font-bold text-slate-900 mb-3"
         >
           Useful Resources for kid to practice Coding
         </h1>
@@ -62,18 +61,13 @@ function resources() {
                 </div>
                 <Link
                   href={d.link}
-                  className="text-gray-500 hover:text-gray-800 hover:underline text-lg"
+                  className=""
                 >
-                  Visit Site
+                  <Button>Visit Site</Button>
                 </Link>
               </div>
             );
           })}
-        </div>
-
-        <div>
-            <Image src={plane} className="absolute top-1/2 -left-48 -z-20"/>
-            <Image src={bulb} className="absolute top-1/4 -right-48 -z-20"/>
         </div>
       </div>
     </div>

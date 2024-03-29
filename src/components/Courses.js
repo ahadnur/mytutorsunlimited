@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   Card,
@@ -12,12 +13,9 @@ import {
 import { Button } from "./ui/button";
 
 import pythonKid from "@/assets/img/service/python.png";
-import webDevKid from "@/assets/img/service/webdev.png";
 import scratchKid from "@/assets/img/service/scratch.png";
-import languageKid from "@/assets/img/service/language.png";
+import bulb from '@/assets/img/bulb.png'
 
-import bulb from "@/assets/img/bulb.png";
-import Link from "next/link";
 
 function Courses() {
   const courses = [
@@ -27,7 +25,7 @@ function Courses() {
       img: pythonKid,
       level: "(Kids, Adult, Elder)",
       back: "#FFFCE5",
-      link: "#",
+      link: "/pricing",
     },
     {
       name: "Elementary Math",
@@ -35,7 +33,7 @@ function Courses() {
       img: scratchKid,
       level: "(Elementary Kids)",
       back: "#E5E2F2",
-      link: "#",
+      link: "/pricing",
     },
   ];
   return (
