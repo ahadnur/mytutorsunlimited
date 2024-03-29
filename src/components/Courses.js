@@ -28,6 +28,14 @@ function Courses() {
       link: "/pricing",
     },
     {
+      name: "Competitive Programming with C, C++",
+      desc: "Be a competitive programmer with C and C++ programming.",
+      img: scratchKid,
+      level: "(Kids, Adult, Elder)",
+      back: "#E5E2F2",
+      link: "/pricing",
+    },
+    {
       name: "Elementary Math",
       desc: "Learn math in the easiest way possible..",
       img: scratchKid,
@@ -35,6 +43,7 @@ function Courses() {
       back: "#E5E2F2",
       link: "/pricing",
     },
+
   ];
   return (
     <div className="container mx-auto px-5 py-10 relative" id="course">
@@ -50,13 +59,13 @@ function Courses() {
             and inspire.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 items w-full">
           {courses.map((course, courseIdx) => (
             <Card
               key={courseIdx}
-              className={`border-[1px] rounded-2xl border-slate-300 cursor-pointer w-full md:max-w-md flex-1`}
+              className={`border-[1px] rounded-2xl border-slate-300 cursor-pointer h-[520px] md:max-w-md flex-1 hover:drop-shadow-2xl`}
             >
-              <div>
+              <div className="flex flex-col justify-between h-full">
                 <CardHeader className="w-full h-64 p-1">
                   <Image
                     src={course.img}

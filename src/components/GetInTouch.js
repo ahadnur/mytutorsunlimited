@@ -15,7 +15,7 @@ function GetInTouch() {
             <Image src={train} alt="train" />
           </div>
           <div className="flex-1 mt-10 lg:mt-0">
-            <h2 className="text-center lg:text-left w-full text-3xl md:text-4xl lg:text-6xl font-black text-slate-900">
+            <h2 className="text-center lg:text-left w-full text-3xl md:text-4xl lg:text-6xl font-bold text-slate-900">
               <span className="text-blue-600">Subscribe</span> Our Newsletter
             </h2>
             <p className="text-center lg:text-left text-base md:text-lg my-9 text-slate-600">
@@ -25,9 +25,9 @@ function GetInTouch() {
             </p>
 
             <div className="">
-              <div className="flex w-full max-w-lg items-center space-x-5">
+              <div className="flex flex-col justify-center gap-5 w-full max-w-lg items-center md:items-start">
                 <Input type="email" placeholder="Enter your Email"  />
-                <Button type="submit" >Subscribe</Button>
+                <Button type="submit" className="w-full md:w-1/3" >Subscribe</Button>
               </div>
             </div>
           </div>

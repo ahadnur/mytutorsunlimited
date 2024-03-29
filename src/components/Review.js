@@ -96,7 +96,7 @@ function Review() {
           Successful individuals
         </h2>
       </div>
-      <div className="slides relative mt-16 gap-5">
+      <div className="slides relative mt-8 gap-5 cursor-pointer">
         <Swiper
           modules={[FreeMode, Navigation, Pagination, Autoplay]}
           breakpoints={{
@@ -122,8 +122,8 @@ function Review() {
         >
           {reviews.map((review, reviewIdx) => {
             return (
-              <SwiperSlide key={reviewIdx}>
-                <Card className="p-5">
+              <SwiperSlide key={reviewIdx} className="py-20">
+                <Card className="p-5 hover:drop-shadow-2xl">
                   <CardHeader>
                     <h3 className="review heading text-heading/80 text-2xl mb-2 font-semibold">
                       {review.reviewHead}
