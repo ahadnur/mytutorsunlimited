@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 
 import "@/styles/globals.css";
 
@@ -15,6 +16,17 @@ const poppins = Poppins({
 export default function App({ Component, pageProps }) {
   return (
     <>
+    <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+    
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+            page_path: window.location.pathname,
+          });    
+          `}
+      </Script>
     <Head>
       <title>My Tutors Unlimited</title>
     </Head>
