@@ -27,7 +27,7 @@ function pricing() {
         "24/7 Support",
       ],
       variant: "outline",
-      purchaseLink: "",
+      purchaseLink: "https://buy.stripe.com/test_fZe16b8pKdeGgVy4gg",
       image: img1,
     },
     {
@@ -42,7 +42,7 @@ function pricing() {
         `Saving ${((5 / (30 * 3)) * 100).toFixed(2)}%`,
         "24/7 Support",
       ],
-      purchaseLink: "",
+      purchaseLink: "https://buy.stripe.com/test_6oE2af49u2A2axa4gh",
       image: img2,
     },
     {
@@ -58,7 +58,7 @@ function pricing() {
         "24/7 Support",
       ],
       variant: "outline",
-      purchaseLink: "",
+      purchaseLink: "https://buy.stripe.com/test_dR616bbBW5MeeNqeUW",
       image: img3,
     },
   ];
@@ -101,7 +101,7 @@ function pricing() {
                 </p>
                 <div className="flex flex-col gap-3">
                   {price.offerings.map((offer, offerIdx) => (
-                    <div className="flex gap-2">
+                    <div className="flex gap-2" key={offerIdx}>
                       <span className="text-blue-500">&#10003;</span>
                       <p key={offerIdx} className="text-slate-800 text-lg">
                         {offer}
@@ -111,7 +111,7 @@ function pricing() {
                 </div>
               </CardContent>
               <CardFooter className="mt-8 items-end">
-                <Link href={price.purchaseLink}>
+                <Link href={price.purchaseLink} target="_blank">
                   <Button>Purchase Now</Button>
                 </Link>
               </CardFooter>

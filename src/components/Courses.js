@@ -37,10 +37,10 @@ function Courses() {
       link: "/pricing",
     },
     {
-      name: "Elementary Math",
+      name: "Mathematics",
       desc: "Learn math in the easiest way possible..",
       img: math,
-      level: "(Elementary Kids)",
+      level: "(Kids, Adult, Elder)",
       back: "#E5E2F2",
       link: "/pricing",
     },

@@ -46,7 +46,7 @@ function Footer() {
           </div>
           <div className="py-3 flex flex-col-reverse sm:flex-row justify-center items-center gap-4 md:text-md text-gray-400 font-semibold">
             <span>&#169;{year.getFullYear()} My Tutors Online</span>
-            <Link href={`/`} className="hover:text-gray-800">
+            <Link href={`/privacy`} className="hover:text-gray-800">
               Privace Policy
             </Link>
             <Link href={`/`} className="hover:text-gray-800">
