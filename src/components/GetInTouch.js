@@ -4,14 +4,14 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
-import train from "@/assets/img/train-1.jpg";
+import train from "@/assets/img/social-media.png";
 
 function GetInTouch() {
   return (
     <div className="py-20" id="contact">
       <div className="container mx-auto px-5">
         <div className="flex flex-col lg:flex-row justify-center items-center">
-          <div className="flex-1">
+          <div className="flex-1 -mt-20">
             <Image src={train} alt="train" />
           </div>
           <div className="flex-1 mt-10 lg:mt-0">

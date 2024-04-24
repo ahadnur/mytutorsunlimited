@@ -13,7 +13,8 @@ import {
 import { Button } from "./ui/button";
 
 import pythonKid from "@/assets/img/service/python.png";
-import scratchKid from "@/assets/img/service/scratch.png";
+import cProgramming from "@/assets/img/service/c.png";
+import math from '@/assets/img/service/math.png';
 import bulb from '@/assets/img/bulb.png'
 
 
@@ -30,7 +31,7 @@ function Courses() {
     {
       name: "Competitive Programming with C, C++",
       desc: "Be a competitive programmer with C and C++ programming.",
-      img: scratchKid,
+      img: cProgramming,
       level: "(Kids, Adult, Elder)",
       back: "#E5E2F2",
       link: "/pricing",
@@ -38,7 +39,7 @@ function Courses() {
     {
       name: "Elementary Math",
       desc: "Learn math in the easiest way possible..",
-      img: scratchKid,
+      img: math,
       level: "(Elementary Kids)",
       back: "#E5E2F2",
       link: "/pricing",
@@ -66,10 +67,10 @@ function Courses() {
               className={`border-[1px] rounded-2xl border-slate-300 cursor-pointer h-[520px] md:max-w-md flex-1 hover:drop-shadow-2xl`}
             >
               <div className="flex flex-col justify-between h-full">
-                <CardHeader className="w-full h-64 p-1">
+                <CardHeader className="w-full h-64 p-1 flex justify-center items-center">
                   <Image
                     src={course.img}
-                    className="rounded-tl-xl rounded-tr-xl w-full h-full object-cover object-center"
+                    className="rounded-tl-xl rounded-tr-xl w-32 h-32  xl:h-48 xl:w-48 "
                     alt="Course Image"
                   />
                 </CardHeader>

@@ -9,9 +9,9 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-import img1 from "@/assets/img/basic.png";
-import img2 from "@/assets/img/standard.png";
-import img3 from "@/assets/img/premium.png";
+import img1 from "@/assets/img/pricing/basic.png";
+import img2 from "@/assets/img/pricing/standard.png";
+import img3 from "@/assets/img/pricing/premium.png";
 
 function pricing() {
   const pricingData = [
@@ -77,7 +77,7 @@ function pricing() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 py-24 gap-5 px-5">
           {pricingData.map((price, priceIdx) => (
-            <Card key={priceIdx} className="flex flex-col">
+            <Card key={priceIdx} className="flex flex-col hover:drop-shadow-2xl transition-all">
               <CardHeader className="flex flex-row justify-between items-center">
                 <div>
                   <span className="capitalize text-slate-600 font-semibold text-xl">

@@ -21,7 +21,6 @@ import "swiper/css/autoplay";
 // import required modules
 import { FreeMode, Navigation, Pagination, Autoplay } from "swiper/modules";
 
-import img1 from "@/assets/img/pencil.png";
 
 function Review() {
   const reviews = [

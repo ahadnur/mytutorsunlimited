@@ -12,7 +12,7 @@ function Hero() {
     <div className="mt-[65px] container mx-auto h-screen px-5 py-10 flex flex-col lg:flex-row justify-center items-center gap-5">
       <div className="text-center md:text-left">
         <Badge variant="outline" className="rounded-md text-sm">Welcome to My Tutors Unlimited</Badge>
-        <h1 style={{lineHeight: "1"}} className="text-6xl xl:text-8xl text-center md:text-left tracking-tighter leading-none mb-6 bg-clip-text text-transparent bg-slate-900 font-black">
+        <h1 style={{lineHeight: "1"}} className="text-6xl 2xl:text-8xl text-center md:text-left tracking-tighter leading-none mb-6 bg-clip-text text-transparent bg-slate-900 font-black">
         Personalized Online <span className="text-blue-500">Tutoring</span> Services
         </h1>
         <p className="mb-5 text-slate-700 font-extralight w-full lg:w-3/4 lg:text-lg xl:text-xl text-center md:text-left">
