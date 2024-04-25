@@ -30,6 +30,7 @@ export default function App({ Component, pageProps }) {
       </Script>
       <Head>
         <title>My Tutors Unlimited</title>
+        <meta name="google-adsense-account" content="ca-pub-1197114634944870"></meta>
       </Head>
       <Layout className={poppins.className}>
         <main
