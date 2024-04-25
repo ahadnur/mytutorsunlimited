@@ -9,7 +9,7 @@ import train from "@/assets/img/social-media.png";
 function GetInTouch() {
   return (
     <div className="py-20" id="contact">
-      <div className="container mx-auto px-5">
+      <div className="mx-auto px-5">
         <div className="flex flex-col lg:flex-row justify-center items-center">
           <div className="flex-1 -mt-20">
             <Image src={train} alt="train" />

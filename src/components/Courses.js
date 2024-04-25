@@ -47,7 +47,7 @@ function Courses() {
 
   ];
   return (
-    <div className="container mx-auto px-5 py-10 relative" id="course">
+    <div className="mx-auto px-5 py-10 relative" id="course">
       <div className="mt-12">
         <div className="mb-10">
           <h1 className="text-center w-full text-3xl md:text-4xl lg:text-6xl font-bold text-slate-900 mb-3">

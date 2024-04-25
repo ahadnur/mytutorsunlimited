@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
       <title>My Tutors Unlimited</title>
     </Head>
       <Layout className={poppins.className}>
-        <main className={`${poppins.className} relative`}>
+        <main className={`${poppins.className} relative mt-[73px] container mx-auto py-16`}>
           <Component {...pageProps} />
         </main>
       </Layout>

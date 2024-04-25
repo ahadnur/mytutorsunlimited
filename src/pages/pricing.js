@@ -65,7 +65,7 @@ function pricing() {
 
   return (
     <>
-      <div className="mt-[73px] container mx-auto py-16">
+      <div className="">
         <div className="text-center">
           <p className="text-xl uppercase text-blue-600 font-semibold tracking-widest mb-3">
             Princing Plan

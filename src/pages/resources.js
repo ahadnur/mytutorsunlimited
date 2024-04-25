@@ -37,7 +37,7 @@ function resources() {
     },
   ];
   return (
-    <div className="container mx-auto px-5 mt-[73px]">
+    <div className="">
       <div className="resources py-14 relative">
         <h1
           style={{ lineHeight: "1.3" }}

@@ -61,3 +61,16 @@ html {
 .navbar {
   @apply w-full fixed top-0 left-0 py-4 flex justify-between items-center px-5 md:px-10 lg:px-32 xl:px-52 backdrop-filter backdrop-blur-lg bg-white border-blue-300 bg-opacity-30 border-b border-white/20 z-50 transition-all duration-300 ease-linear;
 }
+
+.privacyHeading {
+  @apply font-bold text-xl md:text-3xl mb-5 mt-10 text-gray-800;
+}
+
+.privacySubHeading {
+  @apply font-semibold text-xl md:text-2xl mb-5 mt-10 text-gray-600
+}
+
+.privacyPara{
+  @apply mb-6 text-gray-600 font-extralight
+}
+

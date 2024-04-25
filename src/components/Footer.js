@@ -14,7 +14,7 @@ function Footer() {
   return (
     <footer className="relative border-t">
       <div >
-        <div className="container mx-auto text-center px-5 pt-10 ">
+        <div className="mx-auto text-center px-5 pt-10 ">
           <div className="text-4xl font-black">MTU</div>
 
           <div className="border-b py-6">

@@ -47,7 +47,7 @@ function FAQ() {
     },
   ];
   return (
-    <div className="container mx-auto px-5 my-16">
+    <div className="mx-auto px-5 my-16">
       <div className="w-full lg:w-3/5 mx-auto">
         <h2 className="mb-10 text-center w-full text-3xl md:text-4xl lg:text-6xl font-bold text-slate-900">
           Commonly Asked <span className="text-blue-500">Questions</span>

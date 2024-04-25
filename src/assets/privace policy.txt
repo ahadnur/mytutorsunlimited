@@ -18,6 +18,7 @@ Providing and improving our Services
 Connecting you with tutors who meet your needs
 Sending you administrative communications such as account verification, service updates, and password resets
 Responding to your inquiries and providing customer support
+
 Data Sharing
 
 We may share your information with third-party vendors who provide services that support our operations, such as data storage, payment processing, and marketing.  We will only share your information with vendors who have agreed to comply with strict data security standards.

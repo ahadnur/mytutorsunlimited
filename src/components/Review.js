@@ -87,7 +87,7 @@ function Review() {
   ];
 
   return (
-    <div className="container mx-auto relative py-32 px-5">
+    <div className="mx-auto relative py-32 px-5">
       <div className="flex flex-col md:flex-row justify-center items-center gap-10">
         {/* <Image src={img1} /> */}
         <h2 className="text-center w-full lg:w-2/3 text-3xl md:text-4xl lg:text-6xl font-bold text-slate-900">

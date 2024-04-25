@@ -9,7 +9,7 @@ import img1 from "@/assets/img/hero/hero.png";
 
 function Hero() {
   return (
-    <div className="mt-[65px] container mx-auto h-screen px-5 py-10 flex flex-col lg:flex-row justify-center items-center gap-5">
+    <div className=" mx-auto h-[85vh] px-5 py-0 flex flex-col lg:flex-row justify-center items-center gap-5">
       <div className="text-center md:text-left">
         <Badge variant="outline" className="rounded-md text-sm mb-4">Welcome to MyTutorsUnlimited.com</Badge>
         <h1 style={{lineHeight: "1"}} className="text-6xl 2xl:text-8xl text-center md:text-left tracking-tighter leading-none mb-6 bg-clip-text text-transparent bg-slate-900 font-black">

@@ -57,7 +57,7 @@ function OurService() {
   return (
     <div className="mt-20 mb-48 py-10">
 
-      <div className={`container mx-auto px-5 z-10`}>
+      <div className={`mx-auto px-5 z-10`}>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {classesInfo.map((info, infoIdx) => {
             return (
