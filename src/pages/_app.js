@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
+import {GoogleTagManager} from '@next/third-parties/google'
 
 import "@/styles/globals.css";
 
@@ -16,6 +17,17 @@ const poppins = Poppins({
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+    
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+            page_path: window.location.pathname,
+          });    
+          `}
+      </Script>
       <Head>
         <title>My Tutors Unlimited</title>
       </Head>
@@ -24,6 +36,7 @@ export default function App({ Component, pageProps }) {
           className={`${poppins.className} relative mt-[73px] container mx-auto py-16`}
         >
           <Component {...pageProps} />
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER} />
         </main>
       </Layout>
     </>
