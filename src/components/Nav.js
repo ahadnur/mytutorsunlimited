@@ -71,17 +71,17 @@ function Nav() {
       {/* desktop links */}
       <div className="links hidden lg:block text-heading-color">
         <ul className="flex justify-center items-center gap-5">
-          <li className="text-lg hover:text-blue-600">
+          <li className="text-lg hover:text-blue-600 list-none">
             <Link href="/" aria-label="Check our services">Home</Link>
           </li>
-          <li className="text-lg hover:text-blue-600">
+          <li className="text-lg hover:text-blue-600 list-none">
             <Link href="/#register" aria-label="Check our projects">Register</Link>
           </li>
-          <li className="text-lg hover:text-blue-600">
+          <li className="text-lg hover:text-blue-600 list-none">
             <Link href="/#course" aria-label="Go to about">Course</Link>
           </li>
           
-          <li className="text-lg hover:text-blue-600">
+          <li className="text-lg hover:text-blue-600 list-none">
             <Link href="/resources" aria-label="Check our courses">Resources</Link>
           </li>
         </ul>
@@ -99,20 +99,20 @@ function Nav() {
           >
             <div className="">
               <ul className="flex justify-center items-center flex-col gap-5 text-center text-heading-color">
-                <li className="text-lg hover:text-blue-600" onClick={showMenu}>
+                <li className="text-lg hover:text-blue-600 list-none" onClick={showMenu}>
                   <Link href="/#home" aria-label="Check our services">Home</Link>
                 </li>
-                <li className="text-lg hover:text-blue-600" onClick={showMenu}>
+                <li className="text-lg hover:text-blue-600 list-none" onClick={showMenu}>
                   <Link href="/#course" aria-label="Courses">Course</Link>
                 </li>
-                <li className=" text-lg hover:text-blue-600" onClick={showMenu}>
+                <li className=" text-lg hover:text-blue-600 list-none" onClick={showMenu}>
                   <Link href="/#aboutUs" aria-label="About Us">Resourses</Link>
                 </li>
-                <li className="text-lg hover:text-blue-600" onClick={showMenu}>
+                <li className="text-lg hover:text-blue-600 list-none" onClick={showMenu}>
                   <Link href="/#register" aria-label="Register">Register</Link>
                 </li>
                 
-                <li className="ctaButton mt-5 text-lg hover:text-blue-600" onClick={showMenu}>
+                <li className="ctaButton mt-5 text-lg hover:text-blue-600 list-none" onClick={showMenu}>
                   <Link href="/#contact" aria-label="Contact Us">Contact Us</Link>
                 </li>
               </ul>

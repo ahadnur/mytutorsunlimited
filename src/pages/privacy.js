@@ -3,8 +3,8 @@ import Link from "next/link";
 
 function privacyPolicy() {
   return (
-    <div className="w-full lg:w-3/4 xl:w-2/3 lg:mx-auto">
-      <div className="mb-5">
+    <div className="w-full lg:w-3/4 xl:w-2/3 lg:mx-auto mt-20">
+      <div className="mb-20">
         <h1 className="font-bold text-xl md:text-5xl mb-3 uppercase">
           Privacy Policy
         </h1>

@@ -74,3 +74,11 @@ html {
   @apply mb-6 text-gray-600 font-extralight
 }
 
+ul {
+  @apply text-gray-600 ml-10
+}
+
+ul > li {
+  @apply list-disc
+}
+
