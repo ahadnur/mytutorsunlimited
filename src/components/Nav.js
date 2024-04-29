@@ -113,7 +113,7 @@ function Nav() {
                 </li>
                 
                 <li className="ctaButton mt-5 text-lg hover:text-blue-600 list-none" onClick={showMenu}>
-                  <Link href="/#contact" aria-label="Contact Us">Contact Us</Link>
+                  <Link href="/contact" aria-label="Contact Us">Contact Us</Link>
                 </li>
               </ul>
             </div>
@@ -123,7 +123,7 @@ function Nav() {
 
 
       <div className="ctaButton rounded-full bg-none font-light hidden lg:block hover:text-blue-600 transition-colors duration-300 ease-in-out">
-        <Button><Link href="/#contact" aria-label="Contact Us">Contact</Link></Button>
+        <Button><Link href={`/contact`} aria-label="Contact Us">Contact</Link></Button>
       </div>
       <div className="ham visible lg:hidden cursor-pointer" onClick={showMenu}>
         {!open ? (

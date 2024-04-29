@@ -17,7 +17,7 @@ function pricing() {
   const pricingData = [
     {
       name: "basic",
-      price: 30,
+      price: "29.99",
       description: "1 hour live session for one student.",
       offerings: [
         "Hands on Training",
@@ -32,7 +32,7 @@ function pricing() {
     },
     {
       name: "standard",
-      price: 85,
+      price: "84.99",
       description: "3 Sessions, 1 hour each for one student.",
       offerings: [
         "Hands on Training",
@@ -47,7 +47,7 @@ function pricing() {
     },
     {
       name: "premium",
-      price: 140,
+      price: "139.99",
       description: "5 Sessions, 1 hour each for one student.",
       offerings: [
         "Hands on Training",
@@ -77,16 +77,22 @@ function pricing() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 py-24 gap-5 px-5">
           {pricingData.map((price, priceIdx) => (
-            <Card key={priceIdx} className="flex flex-col hover:drop-shadow-2xl transition-all">
+            <Card
+              key={priceIdx}
+              className="flex flex-col hover:drop-shadow-2xl transition-all"
+            >
               <CardHeader className="flex flex-row justify-between items-center">
                 <div>
                   <span className="capitalize text-slate-600 font-semibold text-xl">
                     {price.name}
                   </span>
                   <div className="flex justify-start items-end">
-                    <span className="text-3xl text-slate-500">$</span>
+                    <span className="text-4xl text-slate-500 mr-2">$</span>
                     <h2 className="text-4xl md:text-6xl font-black text-blue-500">
-                      {price.price}
+                      {price.price.split(".")[0]}
+                      <span className="text-base">
+                        .{price.price.split(".")[1]}
+                      </span>
                     </h2>
                   </div>
                 </div>
