@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
-import { LiaGripLinesVerticalSolid } from "react-icons/lia";
 
 import { ImFacebook } from "react-icons/im";
 import { BsTwitterX, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { FaTiktok } from "react-icons/fa";
 
 
 
@@ -27,19 +26,24 @@ function Footer() {
                 </div>
               </Link>
 
-              <Link href={`https://www.facebook.com/`} target="_blank">
+              <Link href={`https://twitter.com/mytutorsunlmtd`} target="_blank">
                 <div className="text-xl text-gray-900 bg-white border p-2 lg:p-4 rounded-lg  transition-all duration-300 highlight relative hover:bg-gray-100">
                   <BsTwitterX />
                 </div>
               </Link>
-              <Link href={`https://www.facebook.com/`} target="_blank">
+              <Link href={`https://www.linkedin.com/in/my-tutors-unlimited-784071307/`} target="_blank">
                 <div className="text-xl text-gray-900 bg-white border p-2 lg:p-4 rounded-lg  transition-all duration-300 highlight relative hover:bg-gray-100">
                   <BsLinkedin />
                 </div>
               </Link>
-              <Link href={`https://www.facebook.com/`} target="_blank">
+              <Link href={`https://www.instagram.com/mytutorsunlimiteddotcom/`} target="_blank">
                 <div className="text-xl text- bg-white border p-2 lg:p-4 rounded-lg  transition-all duration-300 highlight relative hover:bg-gray-100">
                   <BsInstagram />
+                </div>
+              </Link>
+              <Link href={`https://www.tiktok.com/`} target="_blank">
+                <div className="text-xl text- bg-white border p-2 lg:p-4 rounded-lg  transition-all duration-300 highlight relative hover:bg-gray-100">
+                  <FaTiktok />
                 </div>
               </Link>
             </div>
