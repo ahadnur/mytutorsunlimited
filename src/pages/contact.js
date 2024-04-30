@@ -77,28 +77,28 @@ function contact() {
   
   return (
     <div className="w-full md:w-3/4 md:mx-auto flex justify-center items-center ">
-      <div className="flex justify-center items-center flex-col md:flex-row border-[1px] border-slate-500">
-        <div className="flex-1 p-10">
+      <div className="flex justify-center items-center flex-col gap-10 sm:gap-0 md:flex-row border-[1px] border-slate-500">
+        <div className="flex-1 p-4 lg:p-10 w-full">
           <div>
             <h1 className="text-4xl md:text-6xl font-bold  text-slate-900 mb-10">
               Get In touch with us
             </h1>
             <div></div>
             <div>
-              <form className="space-y-5" ref={form} onSubmit={sendEmail}>
-                <div className="grid w-full max-w-md items-center gap-1.5">
+              <form className="space-y-5 w-full" ref={form} onSubmit={sendEmail}>
+                <div className="grid w-full md:max-w-md items-center gap-1.5">
                   <Label htmlFor="name" className="text-slate-900 font-light">
                     Name
                   </Label>
                   <Input type="text" id="name" name="userName" onChange={(e) => setName(e.target.value)} />
                 </div>
-                <div className="grid w-full max-w-md items-center gap-1.5">
+                <div className="grid w-full md:max-w-md items-center gap-1.5">
                   <Label htmlFor="email" className="text-slate-900 font-light">
                     Email
                   </Label>
                   <Input type="email" id="email" name="userEmail" onChange={(e) => setEmail(e.target.value)} />
                 </div>
-                <div className="grid max-w-md gap-1.5">
+                <div className="grid w-full md:max-w-md gap-1.5">
                   <Label
                     htmlFor="messageBox"
                     className="text-slate-900 font-light"
@@ -118,7 +118,7 @@ function contact() {
             </div>
           </div>
         </div>
-        <div className="flex-1 w-full h-full">
+        <div className="flex-1 sm:hidden lg:block lg:w-full lg:h-full">
           <Image
             src={mtu}
             alt="My Tutors Unlimited Home"
