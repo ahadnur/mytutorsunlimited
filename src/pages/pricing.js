@@ -117,7 +117,7 @@ function pricing() {
                 </div>
               </CardContent>
               <CardFooter className="mt-8 items-end">
-                <Link href={price.purchaseLink} target="_blank">
+                <Link href={price.purchaseLink} target="_blank" aria-label="Purchase Now">
                   <Button>Purchase Now</Button>
                 </Link>
               </CardFooter>

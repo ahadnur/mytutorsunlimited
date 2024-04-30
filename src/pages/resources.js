@@ -62,6 +62,7 @@ function resources() {
                 <Link
                   href={d.link}
                   className=""
+                  aria-label="Visit Site"
                 >
                   <Button>Visit Site</Button>
                 </Link>

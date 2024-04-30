@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
-import train from "@/assets/img/social-media.png";
+import socialMedia from "@/assets/img/social-media.png";
 
 function GetInTouch() {
   return (
@@ -12,7 +12,7 @@ function GetInTouch() {
       <div className="mx-auto px-5">
         <div className="flex flex-col lg:flex-row justify-center items-center">
           <div className="flex-1 -mt-20">
-            <Image src={train} alt="train" />
+            <Image src={socialMedia} alt="socialMedia" />
           </div>
           <div className="flex-1 mt-10 lg:mt-0">
             <h2 className="text-center lg:text-left w-full text-3xl md:text-4xl lg:text-6xl font-bold text-slate-900">

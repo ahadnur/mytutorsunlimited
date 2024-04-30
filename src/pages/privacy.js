@@ -18,6 +18,7 @@ function privacyPolicy() {
           <Link
             href={`https://mytutorsunlimited.com`}
             className="font-semibold underline"
+            aria-label="My Tutors Unlimited Link"
           >
             https://mytutorsunlimited.com
           </Link>{" "}
@@ -125,7 +126,7 @@ function privacyPolicy() {
 
       <div>
         <h3 className="privacyHeading">Contact Us</h3>
-        <p className="privacyPara">If you have any questions about this Privacy Policy, please contact us at: <Link href={`mailto:psylabs.tutors@gmail.com`} className="underline font-semibold">HERE</Link> or <Link href={`tel:+8801982674720`} className="underline font-semibold">Call Us</Link></p>
+        <p className="privacyPara">If you have any questions about this Privacy Policy, please contact us at: <Link href={`mailto:psylabs.tutors@gmail.com`} className="underline font-semibold" aria-label="Contact Us">HERE</Link> or <Link href={`tel:+8801982674720`} className="underline font-semibold" aria-label="Contact Us">Call Us</Link></p>
       </div>
 
     </div>

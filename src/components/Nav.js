@@ -10,6 +10,9 @@ import { Poppins } from "next/font/google";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
+import logo_desktop from '@/assets/img/logo_desktop.png'
+import logo_mobile from '@/assets/img/logo_mobile.png'
+
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
@@ -49,22 +52,21 @@ function Nav() {
     >
       <div className="logo">
         <Link aria-label="Go to home" href={`/`} className="text-2xl font-black">
-          {/* <Image
-            src={logo}
-            alt="Psylab"
+          <Image
+            src={logo_desktop}
+            alt="Desktop Logo"
             height={150}
             width={150}
             className="hidden md:block"
-          /> */}
-          MTU
+          />
         </Link>
         <Link aria-label="Go to home" href={`/`}>
-          {/* <Image
-            src={mobileLogo}
-            alt="Psylab"
+          <Image
+            src={logo_mobile}
+            alt="Mobile Logo"
             width={40}
             className="block md:hidden"
-          /> */}
+          />
         </Link>
       </div>
 

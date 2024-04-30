@@ -17,6 +17,7 @@ function terms() {
           <Link
             href={`https://mytutorsunlimited.com`}
             className="font-semibold underline"
+            aria-label="My Tutors Unlimited"
           >
             https://mytutorsunlimited.com
           </Link>{" "}
@@ -118,7 +119,7 @@ function terms() {
       <div>
         <h3 className="privacySubHeading">11. Contact Us</h3>
         <ul>
-            <li>If you have any questions about these Terms, please contact us at <Link href={`mailto:psylabs.tutors@gmail.com`} className="underline font-semibold">HERE</Link> or <Link href={`tel:+8801982674720`} className="underline font-semibold">Call Us</Link></li>
+            <li>If you have any questions about these Terms, please contact us at <Link href={`mailto:psylabs.tutors@gmail.com`} className="underline font-semibold" aria-label="Contact Us">HERE</Link> or <Link href={`tel:+8801982674720`} className="underline font-semibold" aria-label="Call Us">Call Us</Link></li>
         </ul>
       </div>
     </div>

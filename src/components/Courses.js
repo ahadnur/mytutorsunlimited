@@ -84,7 +84,7 @@ function Courses() {
                   <p className="text-lg text-slate-600">{course.desc}</p>
                 </CardContent>
                 <CardFooter className="flex justify-center items-center">
-                  <Link href={course.link}>
+                  <Link href={course.link} aria-label="Book your schedule now">
                     <Button className="">Book Now</Button>
                   </Link>
                 </CardFooter>
@@ -94,7 +94,7 @@ function Courses() {
         </div>
 
         <div className="absolute -top-20 left-1/2 -translate-x-1/2  -z-10">
-          <Image src={bulb} />
+          <Image src={bulb} alt="Bulb imgae" />
         </div>
       </div>
     </div>
