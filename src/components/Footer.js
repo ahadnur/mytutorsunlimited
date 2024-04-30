@@ -1,10 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 import { ImFacebook } from "react-icons/im";
 import { BsTwitterX, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
+
+import logo_desktop from '@/assets/img/logo_desktop.png'
 
 
 
@@ -14,7 +17,9 @@ function Footer() {
     <footer className="relative border-t">
       <div >
         <div className="mx-auto text-center px-5 pt-10 ">
-          <div className="text-4xl font-black">MTU</div>
+          <div className="flex justify-center items-center">
+            <Image src={logo_desktop} alt="logo" className="w-64" />
+          </div>
 
           <div className="border-b py-6">
 
