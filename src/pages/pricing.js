@@ -27,7 +27,7 @@ function pricing() {
         "24/7 Support",
       ],
       variant: "outline",
-      purchaseLink: "https://buy.stripe.com/test_fZe16b8pKdeGgVy4gg",
+      purchaseLink: "https://buy.stripe.com/6oEeXc3apfdpcs86oo",
       image: img1,
     },
     {
@@ -42,7 +42,7 @@ function pricing() {
         `Saving ${((5 / (30 * 3)) * 100).toFixed(2)}%`,
         "24/7 Support",
       ],
-      purchaseLink: "https://buy.stripe.com/test_6oE2af49u2A2axa4gh",
+      purchaseLink: "https://buy.stripe.com/eVa02i12h1mz0Jq289",
       image: img2,
     },
     {
@@ -58,7 +58,7 @@ function pricing() {
         "24/7 Support",
       ],
       variant: "outline",
-      purchaseLink: "https://buy.stripe.com/test_dR616bbBW5MeeNqeUW",
+      purchaseLink: "https://buy.stripe.com/6oEeXc3apfdpcs86oo",
       image: img3,
     },
   ];

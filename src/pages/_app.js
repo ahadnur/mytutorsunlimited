@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
-import {GoogleTagManager} from '@next/third-parties/google'
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import "@/styles/globals.css";
 
@@ -13,6 +13,7 @@ const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
 });
+
 
 export default function App({ Component, pageProps }) {
   return (
@@ -29,15 +30,21 @@ export default function App({ Component, pageProps }) {
           `}
       </Script>
       <Head>
-        <title>My Tutors Unlimited</title>
-        <meta name="google-adsense-account" content="ca-pub-1197114634944870"></meta>
+        <title>My Tutor Unlimited</title>
+        <meta name="description" content="Your personalized online tutoring service. Find your best tutors for python, c/c++, javascript, mathematics." />
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-1197114634944870"
+        ></meta>
       </Head>
       <Layout className={poppins.className}>
         <main
           className={`${poppins.className} relative mt-[73px] container mx-auto py-16`}
         >
           <Component {...pageProps} />
-          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER} />
+          <GoogleTagManager
+            gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER}
+          />
         </main>
       </Layout>
     </>
