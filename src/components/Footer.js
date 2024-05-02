@@ -25,7 +25,7 @@ function Footer() {
 
             {/* Social Icons */}
             <div className="flex justify-center items-center gap-5 mt-5">
-              <Link href={`https://www.facebook.com/`} target="_blank" aria-label="Follow our Facebook">
+              <Link href={`https://www.facebook.com/profile.php?id=61559157991272`} target="_blank" aria-label="Follow our Facebook">
                 <div className="text-xl text-gray-900 bg-white border p-2 lg:p-4 rounded-lg  transition-all duration-300 highlight relative hover:bg-gray-100">
                   <ImFacebook />
                 </div>

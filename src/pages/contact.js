@@ -112,7 +112,7 @@ function contact() {
                 </div>
 
                 <div>
-                  <Button type="submit">{isLoading? (<span className="loading loading-spinner">Loading</span>) : success ? "Sent" : "Send"}</Button>
+                  <Button type="submit">{isLoading? (<span className="loading loading-spinner">Sending</span>) : success ? "Sent" : "Send"}</Button>
                 </div>
               </form>
             </div>
