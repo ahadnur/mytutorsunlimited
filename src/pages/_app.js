@@ -7,6 +7,9 @@ import "@/styles/globals.css";
 import { Poppins } from "next/font/google";
 import Layout from "@/components/Layout";
 
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
@@ -69,9 +72,15 @@ export default function App({ Component, pageProps }) {
           className={`${poppins.className} relative mt-[73px] container mx-auto py-16`}
         >
           <Component {...pageProps} />
+
+          {/* Google Tag Manager */}
           <GoogleTagManager
             gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER}
           />
+
+          {/* Vercel Analytics and Speed Insights */}
+          <Analytics />
+          <SpeedInsights />
         </main>
       </Layout>
     </>
