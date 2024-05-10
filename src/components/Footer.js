@@ -46,7 +46,7 @@ function Footer() {
                   <BsInstagram />
                 </div>
               </Link>
-              <Link href={`https://www.tiktok.com/`} target="_blank" aria-label="Follow our Tiktok">
+              <Link href={`https://www.tiktok.com/@mytutorsunlimted.com`} target="_blank" aria-label="Follow our Tiktok">
                 <div className="text-xl text- bg-white border p-2 lg:p-4 rounded-lg  transition-all duration-300 highlight relative hover:bg-gray-100">
                   <FaTiktok />
                 </div>

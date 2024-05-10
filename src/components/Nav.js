@@ -102,13 +102,13 @@ function Nav() {
             <div className="">
               <ul className="flex justify-center items-center flex-col gap-5 text-center text-heading-color">
                 <li className="text-lg hover:text-blue-600 list-none" onClick={showMenu}>
-                  <Link href="/#home" aria-label="Check our services">Home</Link>
+                  <Link href="/" aria-label="Check our services">Home</Link>
                 </li>
                 <li className="text-lg hover:text-blue-600 list-none" onClick={showMenu}>
                   <Link href="/#course" aria-label="Courses">Course</Link>
                 </li>
                 <li className=" text-lg hover:text-blue-600 list-none" onClick={showMenu}>
-                  <Link href="/#aboutUs" aria-label="About Us">Resourses</Link>
+                  <Link href="/resources" aria-label="About Us">Resourses</Link>
                 </li>
                 <li className="text-lg hover:text-blue-600 list-none" onClick={showMenu}>
                   <Link href="/#register" aria-label="Register">Register</Link>
