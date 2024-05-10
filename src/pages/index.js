@@ -9,6 +9,7 @@ import Review from "@/components/Review";
 import Courses from "@/components/Courses";
 import GetInTouch from "@/components/GetInTouch";
 import FAQ from "@/components/FAQ";
+import FacebookMsg from "@/components/FacebookMsg";
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
       <FadeInOnScroll>
         <GetInTouch />
       </FadeInOnScroll>
+
+      <FacebookMsg />
     </div>
   );
 }
